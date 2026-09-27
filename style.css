@@ -62,17 +62,17 @@
 .det-header {
   background: #fff;
   border-bottom: 1px solid #e5e5e5;
-  height: 64px;
+  height: 42px;
   position: relative;
   z-index: 40;
 }
 
 .det-header-inner {
-  height: 64px;
+  height: 42px;
   display: flex;
   align-items: center;
-  padding: 0 40px;
-  max-width: 1280px;
+  padding: 0 8px;
+  max-width: 660px;
   margin: 0 auto;
   gap: 16px;
 }
@@ -89,7 +89,7 @@
 
 .det-wordmark {
   display: block;
-  height: 28px;
+  height: 18px;
   width: auto;
 }
 
@@ -110,10 +110,10 @@
   gap: 6px;
   background: none;
   border: 0;
-  padding: 10px 14px;
+  padding: 8px 7px;
   color: #4b4b4b;
   font-family: var(--font-det);
-  font-size: 13px;
+  font-size: 8px;
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -169,12 +169,12 @@
   background: #58cc02;
   color: #fff;
   border: 0;
-  border-radius: 16px;
-  height: 36px;
-  padding: 0 16px;
-  margin-left: 12px;
+  border-radius: 10px;
+  height: 28px;
+  padding: 0 12px;
+  margin-left: 8px;
   font-family: var(--font-det);
-  font-size: 13px;
+  font-size: 8px;
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -202,11 +202,11 @@
 }
 
 .det-main {
-  padding: 48px 24px 72px;
+  padding: 36px 24px 72px;
 }
 
 .det-card {
-  max-width: 720px;
+  max-width: 514px;
   margin: 0 auto;
   background: #fff;
   border: 1px solid #e5e5e5;
@@ -219,12 +219,12 @@
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  padding: 16px 24px;
+  padding: 12px 20px;
   border-bottom: 1px solid #e5e5e5;
 }
 
 .det-toolbar-title {
-  font-size: 12px;
+  font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -236,7 +236,7 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: flex-end;
-  gap: 4px 18px;
+  gap: 4px 10px;
 }
 
 .det-action {
@@ -248,9 +248,9 @@
   padding: 4px 0;
   color: #1cb0f6;
   font-family: var(--font-det);
-  font-size: 11px;
+  font-size: 8px;
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   line-height: 1;
   white-space: nowrap;
@@ -267,11 +267,11 @@
 }
 
 .det-disclaimer {
-  padding: 8px 24px;
+  padding: 6px 20px;
   border-bottom: 1px solid #e5e5e5;
   background: #f7f7f7;
   color: #777;
-  font-size: 10px;
+  font-size: 7px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-align: center;
@@ -282,7 +282,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  padding: 20px 24px 18px;
+  padding: 14px 20px 13px;
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -293,14 +293,14 @@
 
 .det-card-wordmark {
   display: block;
-  height: 26px;
+  height: 18px;
   width: auto;
 }
 
 .det-official {
-  font-size: 11px;
+  font-size: 7px;
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #afafaf;
   white-space: nowrap;
@@ -309,14 +309,14 @@
 .det-user {
   display: flex;
   align-items: flex-start;
-  gap: 16px;
-  padding: 20px 24px;
+  gap: 12px;
+  padding: 14px 20px;
   border-bottom: 1px solid #e5e5e5;
 }
 
 .det-photo {
-  width: 80px;
-  height: 80px;
+  width: 72px;
+  height: 72px;
   border-radius: 8px;
   object-fit: cover;
   object-position: center 12%;
@@ -332,8 +332,8 @@
 }
 
 .det-name {
-  margin: 0 0 8px;
-  font-size: 18px;
+  margin: 0 0 6px;
+  font-size: 14px;
   font-weight: 700;
   color: #3c3c3c;
   letter-spacing: 0;
@@ -359,9 +359,9 @@
 .det-user-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
-  gap: 4px 16px;
-  font-size: 13px;
-  line-height: 1.55;
+  gap: 2px 12px;
+  font-size: 9px;
+  line-height: 1.45;
   color: #777;
 }
 
@@ -386,19 +386,19 @@
 }
 
 .det-section {
-  padding: 20px 24px 0;
+  padding: 14px 20px 0;
 }
 
 .det-section-title {
-  margin: 0 0 12px;
-  font-size: 16px;
+  margin: 0 0 8px;
+  font-size: 12px;
   font-weight: 700;
   color: #3c3c3c;
 }
 
 .det-overall {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 142px 1fr;
   border: 1px solid #e5e5e5;
   border-radius: 12px;
   overflow: hidden;
@@ -409,30 +409,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px 8px 12px;
+  padding: 8px 4px 6px;
   border-right: 1px solid #e5e5e5;
 }
 
 .det-gauge-wrap {
   position: relative;
-  width: 160px;
-  height: 142px;
+  width: 126px;
+  height: 114px;
 }
 
 .det-gauge-svg {
-  width: 160px;
-  height: 160px;
+  width: 126px;
+  height: 126px;
   display: block;
-  margin-top: -6px;
+  margin-top: -5px;
 }
 
 .det-gauge-score {
   position: absolute;
   left: 0;
   right: 0;
-  top: 48px;
+  top: 38px;
   text-align: center;
-  font-size: 42px;
+  font-size: 34px;
   font-weight: 700;
   letter-spacing: -0.03em;
   color: #3c3c3c;
@@ -442,23 +442,23 @@
 
 .det-gauge-ends {
   position: absolute;
-  left: 18px;
-  right: 16px;
+  left: 13px;
+  right: 13px;
   bottom: 2px;
   display: flex;
   justify-content: space-between;
-  font-size: 12px;
+  font-size: 9px;
   font-weight: 500;
   color: #afafaf;
 }
 
 .det-cefr {
-  padding: 18px 20px 16px;
+  padding: 11px 14px 10px;
 }
 
 .det-cefr-title {
-  margin: 0 0 12px;
-  font-size: 15px;
+  margin: 0 0 8px;
+  font-size: 10px;
   font-weight: 700;
   color: #3c3c3c;
   line-height: 1.3;
@@ -470,21 +470,21 @@
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
 }
 
 .det-cefr-list li {
   display: flex;
   align-items: flex-start;
-  gap: 10px;
-  font-size: 13px;
+  gap: 7px;
+  font-size: 9px;
   line-height: 1.45;
   color: #4b4b4b;
 }
 
 .det-check {
-  width: 16px;
-  height: 16px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background: #58cc02;
   color: #fff;
@@ -505,7 +505,7 @@
   grid-template-columns: repeat(4, 1fr);
   background: #f7f7f7;
   border-radius: 12px;
-  padding: 20px 8px 18px;
+  padding: 12px 6px 11px;
 }
 
 .det-score-cell {
@@ -515,7 +515,7 @@
 
 .det-score-label {
   display: block;
-  font-size: 11px;
+  font-size: 8px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -525,7 +525,7 @@
 
 .det-score-value {
   display: block;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 700;
   color: #3c3c3c;
   letter-spacing: -0.03em;
@@ -535,17 +535,17 @@
 
 .det-score-hint {
   display: block;
-  margin-top: 8px;
-  font-size: 12px;
+  margin-top: 5px;
+  font-size: 9px;
   font-weight: 400;
   color: #777;
   line-height: 1.35;
 }
 
 .det-verify {
-  padding: 28px 24px 24px;
+  padding: 18px 20px 18px;
   text-align: center;
-  font-size: 13px;
+  font-size: 9px;
   color: #777;
   line-height: 1.5;
 }
