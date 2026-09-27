@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ScoreCerts English Test Demo</title>
+  <meta name="description" content="Unofficial visual demo of a language-test score report. Not issued or verified by Duolingo.">
+  <link rel="icon" href="/favicon.svg">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="det-page">
+  <p class="sr-only">Visual recreation of a certificate page. Not issued by Duolingo.</p>
+  <header class="det-header">
+    <div class="det-header-inner">
+      <button type="button" class="det-logo js-demo"><img class="det-wordmark" src="/det-logo.svg" alt="ScoreCerts English Test demo" width="255" height="39"></button>
+      <nav class="det-nav" aria-label="Primary">
+        <div class="det-nav-item"><button class="det-nav-btn js-demo">TEST TAKERS <span>⌄</span></button></div>
+        <div class="det-nav-item"><button class="det-nav-btn js-demo">INSTITUTIONS <span>⌄</span></button></div>
+        <div class="det-nav-item"><button class="det-nav-btn js-demo">RESEARCHERS <span>⌄</span></button></div>
+      </nav>
+      <button type="button" class="det-dash-btn js-demo">My Dashboard</button>
+      <button type="button" class="det-burger" aria-label="Open menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="det-mobile-menu" hidden>
+      <button class="js-demo">TEST TAKERS</button><button class="js-demo">INSTITUTIONS</button><button class="js-demo">RESEARCHERS</button>
+    </div>
+  </header>
+  <main class="det-main">
+    <article class="det-card" aria-label="Certificate demo">
+      <div class="det-toolbar">
+        <div class="det-toolbar-title">Certificate</div>
+        <div class="det-actions">
+          <button class="det-action js-demo"><span>in</span><span>LinkedIn (demo)</span></button>
+          <button class="det-action" id="printBtn"><span>⎙</span><span>Print</span></button>
+          <button class="det-action" id="shareBtn"><span>🔗</span><span>Get shareable link</span></button>
+          <button class="det-action" id="mailBtn"><span>✉</span><span>Send results</span></button>
+        </div>
+      </div>
+      <div class="det-disclaimer">UNOFFICIAL DEMO — NOT ISSUED OR VERIFIED BY DUOLINGO</div>
+      <div class="det-brand-row">
+        <div class="det-card-brand"><img class="det-card-wordmark" src="/det-logo.svg" alt="" width="255" height="39"></div>
+        <div class="det-official">Unofficial score report</div>
+      </div>
+      <div class="det-user">
+        <img class="det-photo" src="/avatar.svg" alt="Demo profile avatar" width="80" height="80">
+        <div class="det-user-body">
+          <h1 class="det-name"><span class="det-name-check" aria-hidden="true">✓</span>Nicolas B.</h1>
+          <div class="det-user-grid">
+            <div><div>Date of birth: <strong>Private</strong></div><div>Test taken: <strong>September 19, 2026</strong></div></div>
+            <div><div>Certificate ID: <strong>i04ksktebgvrx1v9</strong></div><div>Link: <a href="/i04ksktebgvrx1v9" class="det-link">certs.scorecerts.com/i04ksktebgvrx1v9</a></div></div>
+          </div>
+        </div>
+      </div>
+      <section class="det-section">
+        <h2 class="det-section-title">Overall Score</h2>
+        <div class="det-overall">
+          <div class="det-gauge-col">
+            <div class="det-gauge-wrap">
+              <svg class="det-gauge-svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="Overall score 115 of 160">
+                <g transform="rotate(135 80 80)">
+                  <circle cx="80" cy="80" r="62" fill="none" stroke="#e6e6e6" stroke-width="12" stroke-dasharray="292.17 97.39" stroke-linecap="round"/>
+                  <circle cx="80" cy="80" r="62" fill="none" stroke="#58cc02" stroke-width="12" stroke-dasharray="204.52 185.04" stroke-linecap="round"/>
+                </g>
+              </svg>
+              <div class="det-gauge-score">115</div>
+              <div class="det-gauge-ends"><span>10</span><span>160</span></div>
+            </div>
+          </div>
+          <div class="det-cefr">
+            <h3 class="det-cefr-title">Upper Intermediate: CEFR B2</h3>
+            <ul class="det-cefr-list">
+              <li><span class="det-check">✓</span><span>Can understand concepts of complex text on concrete and abstract topics, including technical discussions in areas of expertise.</span></li>
+              <li><span class="det-check">✓</span><span>Can interact with a degree of fluency and spontaneity that makes regular interaction effortless.</span></li>
+              <li><span class="det-check">✓</span><span>Can produce clear, detailed texts on various topics of interest, synthesizing and evaluating source material.</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="det-section">
+        <h2 class="det-section-title">Individual Subscores</h2>
+        <div class="det-panel">
+          <div class="det-score-cell"><span class="det-score-label">Speaking</span><span class="det-score-value">110</span></div>
+          <div class="det-score-cell"><span class="det-score-label">Writing</span><span class="det-score-value">120</span></div>
+          <div class="det-score-cell"><span class="det-score-label">Reading</span><span class="det-score-value">110</span></div>
+          <div class="det-score-cell"><span class="det-score-label">Listening</span><span class="det-score-value">120</span></div>
+        </div>
+      </section>
+      <section class="det-section">
+        <h2 class="det-section-title">Integrated Subscores</h2>
+        <div class="det-panel">
+          <div class="det-score-cell"><span class="det-score-label">Production</span><span class="det-score-value">115</span><span class="det-score-hint">Ability to speak and write</span></div>
+          <div class="det-score-cell"><span class="det-score-label">Literacy</span><span class="det-score-value">115</span><span class="det-score-hint">Ability to write and read</span></div>
+          <div class="det-score-cell"><span class="det-score-label">Comprehension</span><span class="det-score-value">115</span><span class="det-score-hint">Ability to read and listen</span></div>
+          <div class="det-score-cell"><span class="det-score-label">Conversation</span><span class="det-score-value">115</span><span class="det-score-hint">Ability to listen and speak</span></div>
+        </div>
+      </section>
+      <p class="det-verify">This is a visual demo score report and is not an official Duolingo English Test certificate.</p>
+    </article>
+  </main>
+  <div class="det-backdrop" id="modal" hidden>
+    <div class="det-modal" role="dialog" aria-modal="true">
+      <h2>Unofficial demo</h2>
+      <p>This page is a visual recreation. It is not issued by Duolingo and cannot be verified as an official certificate.</p>
+      <div class="det-modal-actions"><button class="det-modal-close" id="closeModal">Close</button></div>
+    </div>
+  </div>
+  <div class="det-toast" id="toast" hidden>Link copied</div>
+</div>
+<script src="/app.js"></script>
+</body></html>
